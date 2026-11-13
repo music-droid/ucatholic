@@ -1,0 +1,16 @@
+{
+  "name": "UCatholic Sunday Mass",
+  "short_name": "UCatholic",
+  "description": "Weekly music for the Sunday 8 PM UCatholic Mass at St. Augustine",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#172b4d",
+  "theme_color": "#172b4d",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
