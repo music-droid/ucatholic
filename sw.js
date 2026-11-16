@@ -1,6 +1,6 @@
 // Network-first for the gate and app.enc; runtime-cache everything else same-origin.
 // Encrypted PDFs and audio may be cached; plaintext charts are never stored in this repo.
-const C="ucatholic-2026-11-15-3";
+const C="ucatholic-2026-11-15-4";
 self.addEventListener("install",e=>{self.skipWaiting()});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener("fetch",e=>{
